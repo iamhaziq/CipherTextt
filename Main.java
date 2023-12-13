@@ -1,4 +1,4 @@
-
+package CipherText;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -32,7 +32,7 @@ public class Main {
 
                 cipher.runCipher(text);
 
-                System.out.println(text != null);
+              
             } else if (option == 2 && text != null) {
                 // Decipher text
                 cipher.runDecipher();
